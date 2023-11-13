@@ -1,0 +1,61 @@
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff; /* Black background */
+}
+
+.register-form {
+  border: 1px solid #3498db; /* Blue border */
+  padding: 30px;
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #000000; /* Black text color */
+  width: 600px; /* Adjust the width as needed */
+}
+
+.register-form h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #3498db; /* Blue text color */
+}
+
+.register-form label {
+  font-weight: bold;
+}
+
+.register-form .ant-input {
+  border: 1px solid #3498db; /* Blue border for input fields */
+}
+
+.register-form .ant-input:focus {
+  border-color: #000; /* Black border on focus */
+}
+
+.register-form .ant-btn {
+  background-color: #3498db; /* Blue background for the button */
+  color: #fff; /* White text color for the button */
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.register-form .ant-btn:hover {
+  background-color: #000; /* Black background on button hover */
+}
+
+.register-form a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #3498db; /* Blue link color */
+  text-decoration: none;
+}
+
+.register-form a:hover {
+  text-decoration: underline;
+}

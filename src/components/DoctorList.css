@@ -1,0 +1,48 @@
+.card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-body p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .card-body b {
+    font-weight: bold;
+  }
+  
+  .card-body b::before {
+    /* content: '\2022'; Bullet point before bold text */
+    margin-right: 5px;
+  }
+  
+  .card-body b, .card-body p {
+    /* display: block; */
+  }
+  
+  /* Clickable cursor */
+  .card {
+    cursor: pointer;
+  }
+  
